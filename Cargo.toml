@@ -1,0 +1,13 @@
+[package]
+name = "atomic-stamped-ptr"
+version = "0.1.0"
+authors = ["lsongzhi <lsongzhi@163.com>"]
+description = "AtomicStampedPtr"
+documentation = "https://github.com/songzhi/atomic-stamped-ptr"
+homepage = "https://github.com/songzhi/atomic-stamped-ptr"
+repository = "https://github.com/songzhi/atomic-stamped-ptr"
+license = "MIT"
+edition = "2018"
+
+[dependencies]
+atomic = "0.5"
