@@ -12,9 +12,12 @@
 //! ```
 use atomic::Atomic;
 use core::ptr::null_mut;
+#[allow(unused_imports)]
+use core::sync::atomic::Ordering::*;
 
 pub use core::sync::atomic::Ordering;
 
+#[derive(Default)]
 pub struct AtomicStampedPtr<T> {
     p: Atomic<StampedPtr<T>>,
 }
