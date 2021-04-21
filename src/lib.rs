@@ -10,6 +10,7 @@
 //! // or
 //! some_ptr.store(StampedPtr::new(other_ptr), Ordering::Relaxed);
 //! ```
+#![no_std]
 use atomic::Atomic;
 use core::ptr::null_mut;
 #[allow(unused_imports)]
