@@ -1,6 +1,6 @@
 [package]
 name = "atomic-stamped-ptr"
-version = "0.1.0"
+version = "0.1.1-alpha.0"
 authors = ["lsongzhi <lsongzhi@163.com>"]
 description = "AtomicStampedPtr"
 documentation = "https://github.com/songzhi/atomic-stamped-ptr"
